@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  .card {
+    width: 18rem; /* Card width */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 1rem; /* Padding inside the card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    background-color: #fff; /* Background color of the card */
+    margin-left: 600px;
+    margin-top: 200px;
+  }
+  
+  .Instagram {
+    text-align: center; /* Center text inside the card */
+  }
+  
+  input[type="text"], input[type="password"] {
+    display: block;
+    width: 100%; /* Full width of the card */
+    margin: 0 auto; /* Center inputs horizontally */
+    margin-bottom: 1rem; /* Add some space below inputs */
+    padding: 0.5rem; /* Padding inside the input fields */
+    border: 1px solid #ccc; /* Border color for the input fields */
+    border-radius: 4px; /* Rounded corners for the input fields */
+  }
+  
+  a.card-link {
+    display: block; /* Display each link on a new line */
+    margin: 0.5rem 0; /* Add space between links */
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Link color */
+  }
+  
+  a.card-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  p{
+    text-align: center;
+  }
+  button{
+    background-color: #007bff;
+  }
+  h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+  }

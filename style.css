@@ -1,0 +1,61 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: Arial;
+}
+#navbar{
+    height:60px;
+    background-color: white;
+    text-align: left;
+    justify-content: space-evenly;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+button{
+    background-color: yellow;
+}
+#logo{
+    color: orange;
+    margin-left: 2px;
+    font-size: 25px;
+    
+}
+input{
+    margin-left: 50px;
+}
+.contentBox{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    display: inline-block;
+    
+}
+/* #content{
+    height:1000px;
+} */
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 20%;
+    background-color: white;
+
+}
+.shop-section{
+    display:flex;
+    justify-content:space-evenly;
+    background-color: #e2e7e6;
+}
+.box-img{
+    height:400px;
+}
+
